@@ -1,0 +1,161 @@
+<html>
+<head>
+<title>MIKIYA</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+ <div class="banner">
+<!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <!-- banner image start-->
+      <div class="banner-image">
+       <img src="images/img010.jpg" alt="">
+      </div>
+      <!-- banner image end-->
+
+      <!-- banner text start-->
+      <div class="banner-text">
+      <!-- <p>MIKIYAKOBAYASHI</p> -->
+      <span class="first">M</span>
+      <span class="second">I</span>
+      <span class="third">K</span>
+      <span class="four">I</span>
+      <span class="five">Y</span>
+      <span class="six">A</span>
+      <span class="seven">K</span>
+      <span class="eight">O</span>
+      <span class="nine">B</span>
+      <span class="ten">A</span>
+      <span class="eleven">Y</span>
+      <span class="twelve">A</span>
+      <span class="thirteen">S</span>
+      <span class="forteen">I</span>
+      </div>
+      <!-- banner text end-->
+      </div>
+
+      <div class="swiper-slide">
+      <!-- banner image start-->
+      <div class="banner-image">
+       <img src="images/YAMANAMI_4260WW.jpg" alt="">
+      </div>
+      <!-- banner image end-->
+
+      <!-- banner text start-->
+      <div class="banner-text">
+      <p>MIKIYAKOBAYASHI</p>
+      </div>
+      <!-- banner text end-->
+      </div>
+
+      <div class="swiper-slide">
+      <!-- banner image start-->
+      <div class="banner-image">
+       <img src="images/UDGW2_103_DC91803_WW.jpg" alt="">
+      </div>
+      <!-- banner image end-->
+
+      <!-- banner text start-->
+      <div class="banner-text">
+      <p>MIKIYAKOBAYASHI</p>
+      </div>
+      <!-- banner text end-->
+      </div>
+
+      <div class="swiper-slide">
+      <!-- banner image start-->
+      <div class="banner-image">
+       <img src="images/akc_4120w.jpg" alt="">
+      </div>
+      <!-- banner image end-->
+
+      <!-- banner text start-->
+      <div class="banner-text">
+      <p>MIKIYAKOBAYASHI</p>
+      </div>
+      <!-- banner text end-->
+      </div>
+
+      <div class="swiper-slide">
+      <!-- banner image start-->
+      <div class="banner-image">
+       <img src="images/top05.jpg" alt="">
+      </div>
+      <!-- banner image end-->
+
+      <!-- banner text start-->
+      <div class="banner-text">
+      <p>MIKIYAKOBAYASHI</p>
+      </div>
+      <!-- banner text end-->
+      </div>
+
+      <div class="swiper-slide">
+      <!-- banner image start-->
+      <div class="banner-image">
+       <img src="images/top06.jpg" alt="">
+      </div>
+      <!-- banner image end-->
+
+      <!-- banner text start-->
+      <div class="banner-text">
+      <p>MIKIYAKOBAYASHI</p>
+      </div>
+      <!-- banner text end-->
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <!-- <div class="swiper-pagination"></div>  -->
+    <!-- Add Arrows -->
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>   -->
+  </div>
+  
+
+       <!-- scroll info  -->
+        <div class="scroll-info">
+           <p>Scroll</p>
+           <div class="Scroll-arrow"></div
+        </div>
+
+  <!-- Swiper JS -->
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      loop: true,
+      autoplay:true,
+      speed:1500,
+       effect: 'fade',
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <script>
+        $(".swiper-container").each(function(elem, target){
+          var ssecond = target.swiper;
+          $(this).hover(function() {
+              ssecond.autoplay.stop();
+          }, function() {
+              ssecond.autoplay.start();
+          });
+      });
+      </script>
+ </div>
+</body>
+</html>
